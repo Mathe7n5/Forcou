@@ -6,8 +6,8 @@
 
 1. O jogo apresenta uma palavra oculta, representada por underscores (`_`).
 2. O jogador deve tentar adivinhar a palavra, letra por letra.
-3. A cada erro, uma parte de um boneco é desenhada.
-4. O objetivo é adivinhar a palavra antes que o boneco seja completamente desenhado.
+3. Cada erro é contabilizado.
+4. O objetivo é adivinhar a palavra em ate 7 tentativas.
 
 ## 💻 Tecnologias utilizadas
 
