@@ -1,58 +1,58 @@
 let palavraEscolhida;
 let categoriaEscolhida;
 let letrasTentadas = [];
-let tentativasRestantes = 7;
+let tentativasRestantes = 6;
 
 const palavras = {
     Animais: {
-        Facil: ["gato", "cachorro", "peixe"],
+        Fácil: ["gato", "cachorro", "peixe"],
         Normal: ["papagaio", "jacare", "golfinho"],
-        Dificil: ["tatu", "ornitorrinco", "axolote"]
+        Difícil: ["tatu", "ornitorrinco", "axolote"]
     },
-    Profissoes: {
-        Facil: ["medico", "professor", "bombeiro"],
+    Profissões: {
+        Fácil: ["medico", "professor", "bombeiro"],
         Normal: ["arquiteto", "psicologo", "advogado"],
-        Dificil: ["quiropraxista", "oceanografo", "taquigrafo"]
+        Difícil: ["quiropraxista", "oceanografo", "taquigrafo"]
     },
     Nomes: {
-        Facil: ["ana", "joao", "pedro"],
+        Fácil: ["ana", "joao", "pedro"],
         Normal: ["camila", "rafael", "juliana"],
-        Dificil: ["wolfgang", "archibald", "anastacia"]
+        Difícil: ["wolfgang", "archibald", "anastacia"]
     },
     Lugares: {
-        Facil: ["brasil", "paris", "roma"],
+        Fácil: ["brasil", "paris", "roma"],
         Normal: ["londres", "canada", "portugal"],
-        Dificil: ["butao", "liechtenstein", "azerbaijao"]
+        Difícil: ["butao", "liechtenstein", "azerbaijao"]
     },
     Flores: {
-        Facil: ["rosa", "tulipa", "girassol"],
+        Fácil: ["rosa", "tulipa", "girassol"],
         Normal: ["orquidea", "lirio", "hortensia"],
-        Dificil: ["amarilis", "dalia", "cravo-do-mato"]
+        Difícil: ["amarilis", "dalia", "cravo-do-mato"]
     },
     Verbos: {
-        Facil: ["correr", "pular", "dormir"],
+        Fácil: ["correr", "pular", "dormir"],
         Normal: ["escrever", "nadar", "pensar"],
-        Dificil: ["degustar", "perseverar", "almejar"]
+        Difícil: ["degustar", "perseverar", "almejar"]
     },
     Games: {
-        Facil: ["minecraft", "gta", "mario"],
+        Fácil: ["minecraft", "gta", "mario"],
         Normal: ["fortnite", "league of legends", "the sims"],
-        Dificil: ["bloodborne", "hollow knight", "baldurs gate"]
+        Difícil: ["bloodborne", "hollow knight", "baldurs gate"]
     },
     "Apps ou Sites": {
-        Facil: ["youtube", "whatsapp", "google"],
+        Fácil: ["youtube", "whatsapp", "google"],
         Normal: ["instagram", "tiktok", "twitter"],
-        Dificil: ["reddit", "behance", "trello"]
+        Difícil: ["reddit", "behance", "trello"]
     },
     Elogios: {
-        Facil: ["bonito", "alegre", "gentil"],
+        Fácil: ["bonito", "alegre", "gentil"],
         Normal: ["talentoso", "carismatico", "educado"],
-        Dificil: ["perspicaz", "altruista", "magnanimo"]
+        Difícil: ["perspicaz", "altruista", "magnanimo"]
     },
     Objetos: {
-        Facil: ["mesa", "caneta", "celular"],
+        Fácil: ["mesa", "caneta", "celular"],
         Normal: ["relogio", "lampada", "espelho"],
-        Dificil: ["gramofone", "caleidoscopio", "estetoscopio"]
+        Difícil: ["gramofone", "caleidoscopio", "estetoscopio"]
     }
 };
 
